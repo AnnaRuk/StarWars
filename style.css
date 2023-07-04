@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poller One', cursive;
+    background-image: url("./images/Image20230703120742.jpg");
+    color: #eedb00;
+    background-attachment: fixed;
+}
+
+header{
+
+    background-color: rgba(60, 69, 67, .6);
+    border-radius: 15px 15px 0 0;
+
+}
+
+footer{
+    background-color: rgba(60, 69, 67, .6);
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    height: 6em;
+
+}
+
+nav > ul {
+display: flex;
+list-style: none;
+position: fixed;
+top: 5px;
+left: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    padding: .5em 0;
+}
+
+.left {
+
+    float: left;
+    width: 25%;
+    margin: 5px 10px 0 5px;
+}
+.right{
+
+    float: right;
+    width: 50%;
+    margin: 5px 5px 0;
+    border: 1px solid #eedb00;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.right h2{
+width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    /* margin: 5px; */
+   
+
+    
+}
+.right img {
+    width: 32%;
+
+
+}
+
+.botton{
+
+    width: 11em;
+    height: 1em;
+    position: absolute;
+    left: 22em;
+    top: 2em;
+}
+
+
+button>p{
+
+    font-style: 8em;
+    text-align: center;
+}
+
+.email{
+
+    color: black;
+    font-style: 1.5em;
+    font-variant: small-caps;
+}
+.commomButton{
+
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: rgba(204, 3, 35, .5);
+    cursor: pointer;
+}
+
+
+.left img{
+
+   box-shadow: rgba(60, 69, 67, .6) 10px 10px; 
+}
+
+.bottomLeft{
+    border-bottom-left-radius: 15px;
+
+}
+.bottomRight{
+    border-bottom-right-radius: 15px;
+}
+
+.farGalaxy{
+
+    font-size: 2em;
+    letter-spacing: .2em;
+    text-align: justify;
+    line-height: 1.5;
+}
